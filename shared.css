@@ -36,6 +36,16 @@ header{
     margin: 0;
     padding: 0;
 }
+#vid{
+    border: white solid 4px;
+    border-width: 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+#vid:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 #home, #about, #history ,#gallery{
     margin: 0;
     padding: 0;   

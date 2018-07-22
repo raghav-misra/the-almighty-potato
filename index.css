@@ -4,10 +4,11 @@ h1{
     color: white;
     font-size: 25pt;
     text-align: center;
+    text-decoration-line: underline;
 }
 #pot1{
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     border-color: #8a00ff;
     border-width: thick;
     border-style: solid;
