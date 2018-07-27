@@ -20,21 +20,32 @@
         <img id="pothead" onclick="alert('Nothing To See Here... (whistling)');" src="https://i.kym-cdn.com/entries/icons/original/000/011/269/potato.jpg">
     </header>
     <center>
+        <script>
+            function enterPass(){
+                var password = prompt("Enter The Password:");
+                if (password === "Potatoes Are Universally Delicious!! OMG!! Yes!!"){
+                    alert("Password Correct! Good Job!\nNow you know all about potatoes!");
+                }
+                else{
+                    alert("Password Incorrect. Keep Looking!\nSoon you'll know all about potatoes!");
+                }
+            }
+        </script>
         <div id="text">
-            <h1>Welcome! An Introduction:</h1>
+            <h1 class="pagehead">Welcome! An Introduction:</h1>
             <center>
                 <img id="pot1" src="http://wisconsinpotatoes.com/admin/wp-content/uploads/2014/09/red_potatoes.jpg">
                 <img id="pot1" src="http://assets.goodhousekeeping.co.uk/main/embedded/36422/potatoes-main__large.jpg">
-                <h3>
+                <h3 class="pagetext">
                     The potato is a edible, starchy tuber that is indigenous to the Andes of South America.<br>
                     Potatoes have become a staple food in many households worldwide.
                 </h3>
-                <center><h1>Check Out This Video!</h1   ></center>
+                <center><h1 class="pagehead">Check Out This Video!</h1></center>
                 <iframe id="vid" width="480" height="270" src="https://www.youtube.com/embed/q7uyKYeGPdE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <br>
                 <br>
             </center>
-            <center><button id="credits" onclick="window.location.href='https://en.wikipedia.org/wiki/Potato';">Information From Wikipedia.</button></center>
+            <center><button id="credits" onclick="enterPass();">Become A Potato Master!</button></center>
             <br>
         </div>
     </center>
